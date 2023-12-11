@@ -1,0 +1,67 @@
+.heroContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+
+    .card{
+        background-color: #64c7ca;
+        width: 20rem;
+        height: 15rem;
+        color: white;
+        border-radius: 8px;
+        padding: 16px;
+        display: flex;
+        justify-content: center;
+        gap:16px;
+        flex-direction: column;
+        margin: 18px;
+    }
+    .card:hover{
+        border: 6px solid #eaa7ba;
+        background-color: white;
+        color: #eaa7ba
+    
+    }
+
+    .card:hover button{
+        background-color: #eaa7ba;
+        color: white;
+    }
+
+    .heading{
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    .text{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .price{
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+    .heroButton{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 10px;
+
+    button{
+        background-color: white;
+        height: 2rem;
+        width: 6rem;
+        border-radius: 8px;
+        color: #64c7ca;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    }
+
+}
